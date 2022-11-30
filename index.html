@@ -1,0 +1,304 @@
+<html >
+<head>
+   
+   <style>
+      
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        #showcase { 
+            background: url('home-bg.jpeg');
+            background-position: center;
+            height: 500px;
+            width: 100%;
+            padding: 10px;
+        }
+       
+        .main-header {
+            background-color: #30aa85;
+            padding: 8px 16px;
+        }
+
+        .main-nav {
+            display: inline-block;
+            width: calc(100% - 101px);
+            text-align: right;
+            font-family: 'Roboto', sans-serif;
+        }
+        .main-nav__items {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .main-nav__item {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .main-header__logo {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 21px;
+        }
+
+        .main-nav__item a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .main-nav__item a:hover, .main-nav__item:hover::before {
+            color: #2E4C6D;
+        }      
+
+        .main-nav__item:active::before, .main-nav__item a:active {
+            color: #fff;
+        }
+
+        .main-nav__item::before {
+            content: '\2022';
+            color: #fff;
+        }
+
+        .main-nav__item--login a {
+            color: #fff;
+            background-color: #2E4C6D;
+            padding: 4px 16px;
+            border-radius: 8px;
+            border: 2px solid #fff;
+        }
+
+        .main-nav__item--login a:hover {
+            color: #2E4C6D;
+            border: 2px solid #2E4C6D;
+            background-color: #fff;
+        }
+
+        .main-nav__item--login::before {
+            content:none;
+        }
+
+        #who { 
+            padding: 10px;
+            text-align: center;
+        }
+
+        #who h2 {
+            color: #3e4555;
+            font-size: 30px;
+        }
+
+        .row {
+            margin-bottom: 40px;
+        }
+
+        .col-3 {
+            display: inline-block;
+            width: 30%;
+            padding: 16px;
+            margin: 8px;
+        }
+
+        .col-2 {
+            display: inline-block;
+            width: calc(50% - 2px);
+            height: 350px;
+            background-color: brown;
+        }
+
+        th, td {
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+        .icon-box h3 {
+            color: #3e4555;
+            font-size: 26px;
+        }
+
+        .icon-box i {
+            color: #30aa85;
+        }
+
+        .features__left {
+            background: url("features.jpeg");
+            background-size: cover;
+            background-position: top center;
+        }
+
+        .features__right {
+            background-color: #edf5f7;
+            padding: 40px;
+            vertical-align: top;
+        }
+
+        .features__right h3 {
+            font-size: 30px;
+        }
+
+        #features a {
+            background-color: #30aa85;
+            color: #fff;
+            padding: 7px 15px;
+            text-decoration: none;
+            font-size: 14px;
+            text-align: center;
+            border: 1px solid #30aa85;
+            border-radius: 3px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        #features a:hover {
+            border: 1px solid #30aa85;
+            color: #30aa85;
+            background-color: #fff;
+        }
+
+        .item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #0b4886f2;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+        
+    </style>
+ </head>
+<body> 
+
+    <header class="main-header">
+        <a href="#" class="main-header__logo">One Ring | Team 01</a>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Projects</a>
+                </li>
+                <li class="main-nav__item main-nav__item">
+                    <a href="#">I dont know</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main>
+        <section id="showcase">
+            <h1>Code Hour</h1>
+            
+            <p>Hello everyone,I want to announce that me and my colleagues (Muaataz Abdulhakeem Ismaeel, Murad Mammadov, and, Farhad Aliyev) conducted the #HourOfCode event at the British School in Baku. The main purposes of the hour of code are to introduce coding algorithms and arouse curiosity about coding in children’s minds. We have organized this event with 7th grade children. The event was held on November 18th at 2pm. Before I began talking about Code.org and practicing answering questions, we provided some background information on ADA University. After this, we gave general information about Code.org and explained the logic of each question in the "Classic Maze" game. During the session and also at the end of the class, we answered students’ questions. We gave certificates to each of the children for their contributions. We express our deep gratitude to the ADA University, especially professor Araz and the staff of the British School in Baku, who gave us such a wonderful experience. </p>
+                
+            </section>
+            <img src="b92bd967-a37f-4780-9db7-c8320ea0ec03.jfif" width="500" >
+            <img src="c6f5888f-f121-446e-9b3b-a37ff7961e1b.jfif" width="500" >
+            <img src="46f3747e-0fe7-49f6-9735-5dffafe9c9bd.jfif" width="500" >
+
+        <section id="who">
+            <div class="row">
+                <h2>Who are we?</h2>
+                <p>Let's Start!</p>
+            </div>
+
+           
+
+            <div class="row">
+                <div class="icon-box col-3">  
+                                 
+                    <h3>Mua</h3>
+                    <p>---------------</p>
+                </div>
+                <div class="icon-box col-3">                    
+                    <h3>Rashad</h3>
+                    <p>Rashad was born in 2004 in Baku. He graduated from No.82 School.He study at ADA University at Computer Engineering faculty. Watching movie or football is the main hobby of Rashad.  </p>
+                </div>
+                <div class="icon-box col-3">                  
+                    <h3>Farhad</h3>
+                    <p>-------------</p>
+                </div>
+                <div class="icon-box col-3">
+                    <h3>Murad</h3>
+                    <p>-------------</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <h2>Website Project</h2>
+                <p>In this website project i have learned Html, Css and Javascript.For finishing this website, i probably spend 12-15 hours.While learning courses (Html,Css,JS), i tried to make some changes.</p>
+            
+
+                <center>
+                <table>
+                    <tr>
+                      <th>Team member </th>
+                      <th>Contribution to the project and report</th>
+                      <th>Estimated %</th>
+                    </tr>
+                    <tr>
+                      <td>Rashad</td>
+                      <td>Creating skleton of web site (Html)
+                          <br>Trying to design with Css
+
+                          
+                      </td>
+                      <td></td>
+                      
+                    </tr>
+                    <tr>
+                      <td>Mua</td>
+                      <td></td>
+                      <td></td>
+                      
+                    </tr>
+                    <tr>
+                        <td>Farhad</td>
+                        <td></td>
+                        <td></td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Murad</td>
+                        <td></td>
+                        <td></td>
+                        
+                      </tr>
+                  </table>
+
+                  
+                </center>
+
+                <p></p>
+                 
+
+
+
+            </div>
+            
+    </main>
+
+
+</body></html>

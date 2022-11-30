@@ -1,0 +1,394 @@
+.first{
+    width: 1450px;
+    height: 830px; 
+    background-color: rgb(224, 224, 224);
+    background-image: url(lotr-1.png);
+    margin: 0 auto;
+} 
+.wlc{
+    width: 1200px;
+    height: 70px;
+    font: bold 70px arial;
+    text-align: center;
+    margin: 20px auto 70px auto;
+}
+.parag{
+    width: 1200px;
+    height: auto;
+    font: normal 24px arial;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navi{
+    width:1110px;
+    height: 80px;
+    margin: 110px auto 0 auto;
+}
+
+
+
+.about{
+    width: 340px;
+    height: 54px;
+    font: normal 32px arial;
+    text-align: center;
+    float: left;
+    padding: 16px 0 0 0;
+    border-radius: 5px;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.project{
+    width: 340px;
+    height: 54px;
+    font: normal 32px arial;
+    text-align: center;
+    float: left;
+    margin : 0 0 0 30px;
+    padding: 16px 0 0 0;
+    border-radius: 5px;
+    border: 5px solid black;
+}
+
+.name{
+    width: 340px;
+    height: 54px;
+    font: normal 32px arial;
+    text-align: center;
+    float: left;
+    margin : 0 0 0 30px;
+    padding: 16px 0 0 0;
+    border-radius: 5px;
+    border: 5px solid black;
+}
+
+.ox{
+    width: 60px;
+    height: 60px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    transform: rotate(45deg);
+    margin: 110px auto 0 auto;
+}
+.navi a :hover{
+transform: scale(1.08);
+background-color: black;
+color: white;
+transition-duration: 0.3s;
+}
+
+.second{
+    width: 1430;
+    height: 700px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.who{
+    width: 454px;
+    height: 80px;
+    margin: 150px auto -25px auto;
+    font: bold 70px arial;
+}
+
+.chars{
+    width:1115px;
+    height: 400px;
+    margin: 125px auto 0 auto;
+    padding: 0 0 0 50px;
+}
+
+.char1{
+    width: 250px;
+    height: 250px;
+    margin: 75px 0 0 0;
+    float: left;
+    text-align: center;
+    font: normal 24px arial;
+}
+.char2{
+    width: 250px;
+    height: 250px;
+    margin: 75px 0 0 38.3px;
+    float: left;
+    text-align: center;
+    font: normal 24px arial;
+}
+.char2 img{
+    margin: 0 0 -14px 0;
+}
+.char3{
+    width: 250px;
+    height: 250px;
+    margin: 75px 0 0 38.3px;
+    float: left;
+    text-align: center;
+    font: normal 24px arial;
+}
+.char4{
+    width: 250px;
+    height: 250px;
+    margin: 75px 0 0 38.3px;
+    float: left;
+    text-align: center;
+    font: normal 24px arial;
+}
+.char4 img{
+    padding: 0 0 4px 0;
+}
+.b{
+    width: 200px;
+    height: 200px;
+    border: 7px solid black;
+    border-radius: 10px;
+    padding-top: 25px;
+}
+
+.third{
+    width: 1450px;
+    height: 580px;
+    margin: 0 auto;
+    background-color: rgb(224, 224, 224);
+}
+
+.Murad{
+    width: 1300px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.m{
+    width:600px;
+    height: 100px;
+    font: bold 30px arial;
+}
+
+.infom{
+    width: 800px;
+    height: 300px;
+    font: normal 25px arial;
+}
+.contactm{
+    margin: 20px 0 0 0;
+    width: 200px;
+    height: 25px;
+    font: normal 25px arial;
+}
+
+.mm{
+    float: left;
+    height: 580px;
+    width: 800px;
+}
+.photomurad{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    margin: 70px 0 0 870px;
+}
+
+.fourth{
+    width: 1450px;
+    height: 550px;
+    margin: 0 auto;
+}
+.Rashad{
+    width: 1300px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.rash{
+    width:600px;
+    height: 80px;
+    font: bold 30px arial;
+}
+
+.infor{
+    width: 800px;
+    height: 300px;
+    font: normal 25px arial;
+
+}
+.contactr{
+    width: 200px;
+    height: 25px;
+    font: normal 25px arial;
+}
+.r{
+    float: right;
+    height: 483px;
+    width: 800px;
+}
+.photorashad{
+    width: 498px;
+    height: auto;
+    position: absolute;
+    margin: 23px 870px 0 0;
+    padding: 40px 0 0 0;
+}
+.codelogo{
+    margin: 10px  0 0 40px;
+}
+
+.code{
+    width: 1450px;
+    height: 880px;
+    padding: 25px 0 0 0;
+   background-color: rgb(99, 255, 255);
+   margin: 0 auto;
+}
+.hourofcode{
+    width: 600px;
+    height: auto;
+    margin: -30px auto 0 auto;
+    font: bold 70px arial;
+    text-align: center;
+}
+.infohourofcode{
+    width: 1200px;
+    height: auto;
+    font: normal 25px arial;
+    text-align: center;
+    margin: 30px auto 0 auto;
+}
+.hoc1{
+    margin: 100px 0 0 0;
+    float: left;
+    border: 3px solid black;
+    padding: 10px 10px 7px 10px;
+}
+.hoc2{
+    margin: 100px 0 0 30px;
+    float: left;
+    border: 3px solid black;
+    padding: 10px 10px 7px 10px;
+}
+.hoc3{
+    margin: 100px 0 0 30px;
+    float: left;
+    border: 3px solid black;
+    padding: 10px 10px 7px 10px;
+}
+.hoc4{
+    margin: 100px 0 0 30px;
+    float: left;
+    border: 3px solid black;
+    padding: 10px 10px 7px 10px;
+}
+.hoc{
+    width: 1434px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0 0 0 25px;
+}
+
+.namelogo{
+    width: 1450px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.headn{
+    text-align: center;
+    font: bold 70px arial;
+    margin: 50px 0 0 0;
+}
+.line{
+    width: 1300px;
+    height: 5px;
+    background-color: black;
+    margin: 175px auto 0 auto;
+}
+
+.onering{
+   width: 240px;
+   height: 50px;
+   font: bold italic 50px arial ;
+   text-align: center;
+   margin: 175px 0 0 75px;
+}
+.ntext{
+    width: 1000px;
+    height: auto;
+    float: right;
+    margin: -100px 75px 0 40px;
+    font: normal 25px arial;
+}
+
+.llogo{
+    float: right;
+    margin: 5px 0 0 0;
+}
+
+.ltext{
+    width: 1000px;
+    height: auto;
+    margin: 95px 0 0 70px;
+    float: left;
+    font: normal 25px arial;
+}
+
+#video{
+    width: 1450px;
+    height: 435px;
+    background-color: rgb(224, 224, 224);
+    padding: 80px 0 70px 0 ;
+    margin: 0 auto;
+}
+
+.video1{
+    width: 550px;
+    height: 310px;
+    border: 12px solid black;
+    padding: 20px 31px 25px 20px;
+    margin: 0 auto 0 auto;
+    border-radius: 18px;
+}
+
+.quote{
+    width: 660px;
+    height: 30px;
+    font: bold 24px arial;
+    text-align: center;
+    margin: 40px auto 0 auto;
+}
+
+.footer{
+    font: normal 15px arial;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 1450px;
+    height: 30px;
+    padding: 8px 0 0 0;
+    margin: 0 auto;
+}
+
+
+th, td {
+    padding: 10px;
+    border: 4px solid #333;
+    text-align: center;
+  }
+
+  .hw3{
+    width: 1450px;
+    height: 500px;
+    padding: 25px 0 140px 0;
+    background-color: rgb(224, 224, 224);
+    margin: 0 auto;
+  }
+
+
+  table{
+    transform: scale(1);
+    margin: 150px auto 0 auto;
+  }
+
+  .website{
+    font: bold 70px arial;
+    text-align: center;
+  }
